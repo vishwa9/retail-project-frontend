@@ -12,7 +12,7 @@ const ProductStyles = styled.div`
   align-items: top;
   gap: 2rem;
   img {
-    width: 100%;
+    width: 50%;
     object-fit: contain;
   }
 `;
@@ -46,7 +46,7 @@ export default function SingleProduct({ id }) {
   return (
     <ProductStyles>
       <Head>
-        <title>Sick Fits | {Product.name}</title>
+        <title>{Product.name}</title>
       </Head>
       <img
         src={Product.photo.image.publicUrlTransformed}

@@ -10,7 +10,7 @@ const ItemStyles = styled.div`
   img {
     width: 100%;
     height: 400px;
-    object-fit: cover;
+    object-fit: none;
   }
   p {
     line-height: 2;
